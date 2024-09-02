@@ -2,6 +2,7 @@ import Link from "next/link";
 import MenuItem from "./MenuItem"
 import { AiFillHome } from "react-icons/ai";
 import {BsFillInfoCircleFill} from "react-icons/bs"
+import DarkMode from "./DarkMode";
 
 export default function Header() {
   return (
@@ -11,6 +12,7 @@ export default function Header() {
             <span className="text-xl hidden sm:inline">Clone</span>
         </Link>
         <div className=" flex gap-4">
+            <DarkMode />
             <MenuItem title='home' address='/' Icon={AiFillHome}/>
             <MenuItem title='about' address='/about' Icon={BsFillInfoCircleFill}/>
         </div>
