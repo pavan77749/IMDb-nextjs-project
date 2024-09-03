@@ -23,7 +23,7 @@ This project is a clone of IMDb built using the Next.js framework and styled wit
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/imdb-clone.git](https://github.com/pavan77749/IMDb-nextjs-project
+   git clone https://github.com/pavan77749/IMDb-nextjs-project.git
    ```
 
 2. Navigate to the project directory:
